@@ -2,6 +2,10 @@
 
 **Encapsulation** in Java is one of the four fundamental Object-Oriented Programming (OOP) concepts (along with Inheritance, Polymorphism, and Abstraction). It refers to the practice of **wrapping data (variables) and code (methods) together as a single unit** and restricting direct access to some of the object's components.
 
+- Every variable should be private.
+- For every variable there should be two method to assign value to it and another to access the assigned value from it (getter & setter)
+- variable can be operated only through methods.
+
 ## Key Features of Encapsulation:
 1) **Data Hiding:** The internal representation of an object is hidden from the outside. Access is only allowed through public methods (getters and setters).
 
